@@ -1,6 +1,6 @@
 # Coding challenges
 
-A collection of my soultions of various coding challenges solved with PHP
+A collection of my soultions of various coding challenges solved using PHP
 
 ## Usage
 
