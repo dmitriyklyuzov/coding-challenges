@@ -18,4 +18,4 @@ $ php solution.php "Argument 1" "String 2"
 
 ## SQL ZOO
 
-For my solutions to [SQL ZOO](http://sqlzoo.com) coding challenges, see [this repository](https://github.com/dmitriyklyuzov/sqlzoo)
+For my solutions to [SQL ZOO](http://sqlzoo.net) coding challenges, see [this repository](https://github.com/dmitriyklyuzov/sqlzoo)
