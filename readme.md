@@ -21,17 +21,19 @@ Newer solutions use default values if no arugments are passed:
 
 ```php
 
-	// If args provided
-	if($argc>1){
-		// use argv[1] as as function parameter
-		doThis($argv[1]);
-	}
-	// otherwise
-	else{
-		// use default value as function parameter
-		echo "No input provided, using default value\n";
-		doThis($default);
-	}
+$default = "default value";
+
+// if args provided
+if($argc>1){
+	// use argv[1] as as function parameter
+	doThis($argv[1]);
+}
+// otherwise
+else{
+	// use default value as function parameter
+	echo "No input provided, using default value\n";
+	doThis($default);
+}
 
 ```
 
