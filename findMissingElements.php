@@ -1,7 +1,10 @@
 <?php
-	// two arrays, sorted/unsorted, числа от 1 - 100, какие-то миссинг
 
-	$a = [1, 2, 9, 4, 10, 7, 6, 5];
+	// you have a sorted/unsorted array, 1-100
+	// multiple numbers are missing
+	// find those numbers
+
+	$a = [1, 2, 9, 4, 10, 7, 6, 5]; // 3, 8
 
 	function findMissingElements($a){
 		
@@ -15,6 +18,7 @@
 
 		print_r($missing);
 	}
-
+	
 	findMissingElements($a);
+
 ?>
